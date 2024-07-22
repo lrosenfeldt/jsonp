@@ -278,6 +278,7 @@ module Jsonp
       @tokens = []
     end
 
+    # @param input [String]
     def parse(input)
       init_with input
 
